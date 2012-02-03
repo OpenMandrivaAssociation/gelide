@@ -37,8 +37,8 @@ remember them every now and then.
 desktop-file-install \
 	--remove-key="Version" \
 	--remove-key="Encoding" \
-	--dir=%{buildroot}%{_desktopdir} \
-	%{buildroot}%{_desktopdir}/%{name}.desktop
+	--dir=%{buildroot}%{_datadir}/applications/ \
+	%{buildroot}%{_datadir}/applications/%{name}.desktop
 
 %__rm -rf %{buildroot}/usr/doc
 
@@ -51,7 +51,7 @@ desktop-file-install \
 %defattr(-,root,root,-)
 %doc AUTHORS ChangeLog README INSTALL COPYING
 %{_bindir}/%{name}
-%{_desktopdir}/%{name}.desktop
+%{_datadir}/applications/%{name}.desktop
 %{_datadir}/%{name}/*.xml
 %{_datadir}/%{name}/pixmaps/*
 %{_datadir}/%{name}/ui/*
