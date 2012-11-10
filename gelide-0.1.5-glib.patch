@@ -1,0 +1,12 @@
+diff -urN gelide-0.1.5/src/utils/utils.cpp gelide-0.1.5-patched/src/utils/utils.cpp
+--- gelide-0.1.5/src/utils/utils.cpp	2011-03-26 04:49:59.000000000 +1000
++++ gelide-0.1.5-patched/src/utils/utils.cpp	2012-02-04 01:18:39.837794321 +1100
+@@ -21,7 +21,7 @@
+ #include "utils.hpp"
+ #include "../gelide.hpp"
+ #include <ctime>
+-#include <glib/gfileutils.h>
++#include <glib.h>
+ //#include <glibmm.h>
+ //#include <glib/gstdio.h>
+ //#include <stdlib.h>
