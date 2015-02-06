@@ -1,6 +1,6 @@
 Name:		gelide
 Version:	0.1.5
-Release:	3
+Release:	4
 Summary:	Emulators manager
 Group:		Emulators
 License:	GPLv3
