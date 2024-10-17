@@ -4,7 +4,7 @@ Release:	4
 Summary:	Emulators manager
 Group:		Emulators
 License:	GPLv3
-URL:		http://gelide.sourceforge.net/
+URL:		https://gelide.sourceforge.net/
 Source0:	http://sourceforge.net/projects/%{name}/files/%{name}/%{name}-%{version}/%{name}-%{version}.tar.gz
 Patch0:		gelide-0.1.5-glib.patch
 Patch1:		gelide-0.1.5-gcc4.7.patch
